@@ -5,9 +5,11 @@ Simple reminder written in Rust
 # usage
 
 To add an event to your remainder:
-  1. create a file in "data/" with the rce extension
+  1. create a file in "data/" with the ".rce" extension
   2. add your entry following the format below
   3. ```cargo run```
+
+".rce" stands for Rusminder Calendar Entry
 
 # entry example
 
@@ -42,6 +44,6 @@ An entry can generate multiple events, for examples:
 
 # future work
 
-add thiserror crate to mix io::errors from reading files and <type>::Err from parsing
+add thiserror crate to mix io::errors from reading files and other errors from parsing
   1. [thiserror crate](https://docs.rs/thiserror/latest/thiserror/)
   2. [thiserror tutorial](https://youtu.be/g6WUHcyjsfc)
