@@ -18,7 +18,7 @@ To add an event to your remainder:
 # some slots are optional
 
 # person = first_name, last_name, nickname ; birthday ; saint_day ; wedding_day
-person = Santa, CLAUS, St Nicholas ; 25,12, ; 06,12 ;
+person = Santa, CLAUS, St Nicholas ; 25,12 ; 06,12 ;
 # birthyear and wedding were omitted
 # at least first_name or nickname must be provided, all other slots are optional
 # birthday and wedding day take an optional year
@@ -43,5 +43,5 @@ An entry can generate multiple events, for examples:
 # future work
 
 add thiserror crate to mix io::errors from reading files and <type>::Err from parsing
-see https://youtu.be/g6WUHcyjsfc
-see https://docs.rs/thiserror/latest/thiserror/
+  1. [thiserror crate](https://docs.rs/thiserror/latest/thiserror/)
+  2. [thiserror tutorial](https://youtu.be/g6WUHcyjsfc)
