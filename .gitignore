@@ -1,1 +1,4 @@
 /target
+Cargo.lock
+/data/family.rce
+/data/friends.rce
