@@ -1,4 +1,4 @@
-use calendar::{date, event, file, Result};
+use rustminder::{date, event, file, Result};
 
 fn main() -> Result<()> {
 
